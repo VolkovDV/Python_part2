@@ -12,7 +12,7 @@ l2 = [strr.decode() for strr in l1]
 l2
 
 encodelist = [el.encode('cp1251') for el in l2]
-encodelist
+encodelist #вызов закодированный строк в cp1251
 
 decodelist = [el.decode('cp1251') for el in encodelist]
 decodelist
