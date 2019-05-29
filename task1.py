@@ -3,7 +3,7 @@
 
 str1, str2, str3 = "разработка", "сокет", "декоратор"
 
-l1 = [strr.encode() for strr in (str1, str2, str3)]
+l1 = [strr.encode() for strr in (str1, str2, str3)] #кодирование в байтовый тип данных
 
 l1
 
